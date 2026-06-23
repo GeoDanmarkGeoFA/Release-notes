@@ -52,6 +52,7 @@ Hvis der **tilføjes et nyt tema** skrives:
 
 Nyt tema med navnet ’Navn (temanummer)’ tilføjes til temagruppen ’Navn på temagruppe’.
 
+Metadata:
 * Temanavn: Skriv tekst
 * Temakode: Skriv tekst
 * Definition: Skriv tekst
@@ -62,8 +63,9 @@ Nyt tema med navnet ’Navn (temanummer)’ tilføjes til temagruppen ’Navn p�
 * Geometri type: Skriv tekst
 * Lovgrundlag: Skriv tekst
 * KLE\_koder: Skriv tekst
+Registreringsvejledning:
 * Registreringsinstruks: Skriv tekst
-* Klassificering: Skriv evt. tekst
+* Klassificering/opdeling: Skriv evt. tekst
 * Minimum størrelser for objekt: Skriv evt. tekst
 * Entydige objekter: Skriv evt. tekst
 * Geometrisk konsistens mellem objekter: Skriv evt. tekst
@@ -75,6 +77,7 @@ Nyt tema med navnet ’Navn (temanummer)’ tilføjes til temagruppen ’Navn p�
 
 Nyt tema med navnet ’Kort til cykelplanlægning (5609)’ tilføjes til temagruppen ’Vej og trafik’.
 
+Metadata:
 * Temanavn: Kort til cykelplanlægning
 * Temakode: 5610
 * Definition: Et kortlag til at arbejde med planlægningen af cykelruter på tværs af administrative grænser.
@@ -85,8 +88,9 @@ Nyt tema med navnet ’Kort til cykelplanlægning (5609)’ tilføjes til temagr
 * Geometri type: Linje
 * Lovgrundlag:
 * KLE\_koder:
+Registreringsvejledning:
 * Registreringsinstruks: For begge planlægningskort bør følgende data registreres: rutetype og evt. undertype, om der er tale om et overordnet korridorkort eller et mere detaljeret planlægningskort samt endeligt detaljer om navn, nummer og beskrivelse/formål. For planlægningskortet kan yderligere detaljer om finansiering og prioritering tilføjes
-* Klassificering:
+* Klassificering/opdeling:
 * Minimum størrelser for objekt:
 * Entydige objekter:
 * Geometrisk konsistens mellem objekter: Sørg for at sætte linjer for ruterne på den geografisk korrekte placering (stimidte, vejmidte eller vejkant fra GeoDanmark grunddata) og i forbindelse med stationeringspunkter (5611), hvis disse benyttes, så der dannes et samlet netværk.
