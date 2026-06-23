@@ -108,7 +108,7 @@ Temaet tilføjes følgende attributter/felter:
 Feltnavn: teknisk navn
 
 * Feltnavn10: teknisk navn i max. 10 tegn
-* Formål og registreringsvejledning: Skriv tekst om formål, registreringsvejledning og evt. eksempler. Hvis der er tale om en systemoversættelse af en værdi, kan der skrives: Systemoversættes ud fra valgt kode vha. opslagsliste d\_navn\_navn (selve opslagslisten/opslagslisterne indskrives samlet efter alle felterne)
+* Formål og registreringsvejledning, og evt. eksempel: Skriv tekst om formål, registreringsvejledning og evt. eksempler. Hvis der er tale om en systemoversættelse af en værdi, kan der skrives: Systemoversættes ud fra valgt kode vha. opslagsliste d\_navn\_navn (selve opslagslisten/opslagslisterne indskrives samlet efter alle felterne)
 * Datatype: Tal/tegn/tekststreng
 * Værdiområde: Angives
 * Obligatorisk (0) / Frit (F) / Systemgenereret (S): O
@@ -120,7 +120,7 @@ Feltnavn: teknisk navn
 Feltnavn: rutetype\_kode
 
 * Feltnavn10: rutetype\_k
-* Formål og registreringsvejledning: At angive hvilken type af rute, man planlægger for. Forklaring: Pt. der er kun muligt at planlægge for cykelruter, men på sigt kan flere rutetyper komme i spil. Værdi vælges fra opslagsliste d\_5809\_ty. Eksempel: 1
+* Formål og registreringsvejledning, og evt. eksempel: At angive hvilken type af rute, man planlægger for. Forklaring: Pt. der er kun muligt at planlægge for cykelruter, men på sigt kan flere rutetyper komme i spil. Værdi vælges fra opslagsliste d\_5809\_ty. Eksempel: 1
 * Datatype: Tal
 * Værdiområde: 1-3 cifre
 * Obligatorisk (0) / Frit (F) / Systemgenereret (S): O
