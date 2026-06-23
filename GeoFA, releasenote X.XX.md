@@ -63,6 +63,7 @@ Metadata:
 * Geometri type: Skriv tekst
 * Lovgrundlag: Skriv tekst
 * KLE\_koder: Skriv tekst
+
 Registreringsvejledning:
 * Registreringsinstruks: Skriv tekst
 * Klassificering/opdeling: Skriv evt. tekst
