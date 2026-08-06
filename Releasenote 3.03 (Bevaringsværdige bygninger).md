@@ -1181,7 +1181,7 @@ Feltnavn: bevaringsaarsag
 * Obligatorisk (O) / Frit (F) / Systemgenereret (S): S
 
 
-I opslagslisten ’d\_6205\_bervaringsaarsag’ tilføjes følgende udfaldsrum
+I opslagslisten ’d\_6205\_bevaringsaarsag’ tilføjes følgende udfaldsrum
 
 bevaringsaarsag\_kode: 0
 * bevaringsaarsag: ikke udpeget som bevaringsværdig
