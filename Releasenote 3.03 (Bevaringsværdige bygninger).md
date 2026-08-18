@@ -29,7 +29,7 @@ Metadata:
 * Temanavn: Bygningsvurderingsgruppe
 * Temakode: 6204
 * Definition: Gruppe af bygninger der ud fra relevante fællestræk (fx bygningstype, historie eller geografisk afgrænsning) har gennemgået en vurdering af bevaringsværdien.
-* Beskrivelse: Ved vurdering af bygningers bevaringsværdi kan der oprettes en gruppe som består af bygninger der har et fælles tema (fx mejerier, stationer eller herregårde) eller som har en geografisk sammenhæng i form af et afgrænset område (fx en landsby eller en bydel). 
+* Beskrivelse: Ved vurdering af bygningers bevaringsværdi kan der oprettes en gruppe, som består af bygninger, der har et fælles tema (fx mejerier, stationer eller herregårde) eller som har en geografisk sammenhæng i form af et afgrænset område (fx en landsby eller en bydel). 
 * Formaal: Bygningsvurderingsgruppen bliver ikke i sig selv vurderet eller karaktersat, men har alene til formål at sammenknytte en relevant samling af vurderede bygninger. En vurderet bygning kan høre til flere bygningsvurderingsgrupper.
 * Noegleord\_hovedgruppe: Bevaringsværdige bygninger
 * Nogle\_ord: Områdeafgrænsning, Bygningstema, Bebygget miljø, Kulturmiljø, Bebygget struktur, Baevaringsværdi.
@@ -38,7 +38,7 @@ Metadata:
 * KLE\_koder: 01.10.00 (Bygningsfredning og bygningsbevaring i almindelighed)
 
 Registreringsvejledning:
-* Registreringsinstruks: Bygningsvurderingsgruppen oprettes med navn og geometri og der tilknyttes relevante bygninger til gruppen. Der kan indsættes kommentarer og fotos på gruppeniveau. Der kan henvises til eksterne sager eller planer som fx bevarende lokalplaner.
+* Registreringsinstruks: Bygningsvurderingsgruppen oprettes med navn og geometri, og der tilknyttes relevante bygninger til gruppen. Der kan indsættes kommentarer og fotos på gruppeniveau. Der kan henvises til eksterne sager eller planer som fx bevarende lokalplaner.
 * Klassificering/opdeling: Der findes ingen klassificering af bygningsvurderingsgruppen
 * Minimum størrelser for objekt: 0,1 m 
 * Entydige objekter: -
@@ -404,7 +404,7 @@ Metadata:
 
 Registreringsvejledning:
 * Registreringsinstruks: Bygningsvurderingen oprettes med en geometri der udpeger den bygning (eller dele af den) som er blevet vurderet. Der udfyldes karakterer og vurderingstekster. Der kan tilknyttes fotos. Bygningsvurderingen kan være del af én eller flere bygningsvurderingsgrupper.
-* Klassificering/opdeling: Der findes ingen klassificering af bygningsvurderingen idet bevaringsværdien (0-9) kan vurderes forskelligt fra kommune til kommune.
+* Klassificering/opdeling: Der findes ingen fælles klassificering af bygningsvurderingen idet bevaringsværdien (0-9) kan vurderes forskelligt fra kommune til kommune.
 * Minimum størrelser for objekt: 0,1 m
 * Entydige objekter: -
 * Geometrisk konsistens mellem objekter: Bygningspolygonerne for sammenhængende bygninger skal snappe til hinanden. Der bør ikke være overlap mellem bygningsvurderingerne.
@@ -764,9 +764,9 @@ Feltnavn: beliggenhedskommune
 * Værdiområde: 100-999
 * Obligatorisk (O) / Frit (F) / Systemgenereret (S): S
 
-Feltnavn: ejendomsnummer
+Feltnavn: BFE-nummer
 
-* Feltnavn10: ejd_nr
+* Feltnavn10: bfe_nr
 * Formål og registreringsvejledning, og evt. eksempel: BFE-nummer. BBR-oplysning ("fryses" for registreringsdatoen). Eksempel: 9025416
 * Datatype: Heltal
 * Værdiområde: 1-9999999
@@ -903,7 +903,7 @@ Feltnavn: komplekstype
 Feltnavn: bygningsfunktion
 
 * Feltnavn10: byg_funkt
-* Formål og registreringsvejledning, og evt. eksempel: De to felter med oprindelig og nuværende funktion samles og ændres til et fritekstfelt (’bygningsfunktion’) hvor det kan beskrives hvordan bygningens funktion har ændret sig over tid. Eksempel: Stuehus til landbrugsejendom
+* Formål og registreringsvejledning, og evt. eksempel: Beskrivelse af bygningens funktion og hvordan den evt. har ændret sig over tid. Eksempel: Tidligere stuehus til landbrugsejendom, nu enfamiliehus
 * Datatype: Tekststreng
 * Værdiområde: 0-128 tegn
 * Obligatorisk (O) / Frit (F) / Systemgenereret (S): F
@@ -1023,7 +1023,7 @@ Feltnavn: bebyggelsesmiljoe
 Feltnavn: ydre_forhold
 
 * Feltnavn10: yd_forhold
-* Formål og registreringsvejledning, og evt. eksempel: Beskrivelse af det forhold bygningen har til andre bygninger i nærheden. Eksempel: Fritliggende, uden arkitektonisk tilknytning til andre bygninger uden for matriklen (tidligere 30)
+* Formål og registreringsvejledning, og evt. eksempel: Beskrivelse af det forhold bygningen har til andre bygninger i nærheden. Eksempel: Fritliggende, uden arkitektonisk tilknytning til andre bygninger uden for matriklen
 * Datatype: Tekststreng
 * Værdiområde: 0-1024 tegn
 * Obligatorisk (O) / Frit (F) / Systemgenereret (S): F
@@ -1039,7 +1039,7 @@ Feltnavn: indre_forhold
 Feltnavn: omgivelser
 
 * Feltnavn10: omgivelser
-* Formål og registreringsvejledning, og evt. eksempel: Fremhævelse af særlige omgivelser. Feltet kan evt. omdøbes til "Særlige elementer i omgivelser". Eksempel: Mark, eng
+* Formål og registreringsvejledning, og evt. eksempel: Fremhævelse af særlige omgivelser. Beskrivelse af særlige elementer i omgivelser. Eksempel: Mark, eng
 * Datatype: Tekststreng
 * Værdiområde: 0-1024 tegn
 * Obligatorisk (O) / Frit (F) / Systemgenereret (S): F
@@ -1047,7 +1047,7 @@ Feltnavn: omgivelser
 Feltnavn: arkitektonisk_vaerdi
 
 * Feltnavn10: ark_kar
-* Formål og registreringsvejledning, og evt. eksempel: Karakter for den arkitektoniske værdi (0 = ikke vurderet, 1-3 høj værdi, 4-6 = middel værdi, 7-9 = lav værdi). Eksempel: 4
+* Formål og registreringsvejledning, og evt. eksempel: Karakter for den arkitektoniske værdi. Eksempel: 4
 * Datatype: Heltal
 * Værdiområde: 0-9
 * Obligatorisk (O) / Frit (F) / Systemgenereret (S): F
@@ -1181,7 +1181,7 @@ Feltnavn: bevaringsaarsag
 * Obligatorisk (O) / Frit (F) / Systemgenereret (S): S
 
 
-I opslagslisten ’d\_6205\_bevaringsaarsag’ tilføjes følgende udfaldsrum
+I opslagslisten ’d\_6205\_bervaringsaarsag’ tilføjes følgende udfaldsrum
 
 bevaringsaarsag\_kode: 0
 * bevaringsaarsag: ikke udpeget som bevaringsværdig
