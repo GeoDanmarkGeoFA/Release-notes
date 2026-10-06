@@ -23,6 +23,7 @@ Overordnet beskrivelse: Dansk Kyst- og Naturturisme har i samarbejde med Nordiq 
 
 #### Slettet:
 Temaet slettes følgende attributter/felter:
+
 Feltnavn: id_cykelkrydspunkt
 
 * Feltnavn10: id_cykelkrydspunkt
